@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 65.2%;
+    counter-reset: heading;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    margin: 1rem;
+    font-size: 1.3rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+[data-tooltip] {
+    position: relative;
+}
+
+[data-tooltip]:hover::before {
+    content: attr(data-tooltip);
+    position: absolute;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 2.5rem;
+    top:  -.5rem;
+    left: 50%;
+    transform: translate(-50%, -100%);
+}
+
+:is(ul, ol) :is(ul, ol) li {
+    color: green;
+}
+
+h2::before {
+    content: "Part " counter(heading, upper-roman) ": ";
+    counter-increment: heading;
+}
+
+ol, ul {
+    counter-reset: outline;
+}
+
+li {
+    list-style: none;
+}
+
+li::before {
+    content: counters(outline, '.') ".";
+    counter-increment: outline;
+}

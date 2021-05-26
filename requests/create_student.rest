@@ -1,0 +1,8 @@
+POST http://localhost:3002/api/students 
+Content-Type: application/json
+
+{
+    "nombre": "Gustavo Rodolfo",
+    "apellido": "Arenas Vega",
+    "direccion": "calle 20 #14 c 9"
+}
