@@ -47,3 +47,111 @@
 2021-05-26T16:53:46.629148000 6679.570946s notice: All client connections closed.
 2021-05-26T16:53:46.629187000 6679.570984s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
 2021-05-26T16:53:46.652055000 6679.593852s notice: Storage engine shut down.
+2021-05-26T23:50:09.290534000 0.050074s notice: Running rethinkdb 2.4.1 (CLANG 12.0.0 (clang-1200.0.32.28))...
+2021-05-26T23:50:09.310772000 0.070309s notice: Running on Darwin 20.5.0 x86_64
+2021-05-26T23:50:09.311017000 0.070553s notice: Loading data from directory /Users/jp/development/backend/rethinkdb_data
+2021-05-26T23:50:09.363625000 0.123160s info: Automatically using cache size of 100 MB
+2021-05-26T23:50:09.363636000 0.123170s warn: Cache size does not leave much memory for server and query overhead (available memory: 1051 MB).
+2021-05-26T23:50:09.363643000 0.123178s warn: Cache size is very low and may impact performance.
+2021-05-26T23:50:09.379443000 0.138978s notice: Listening for intracluster connections on port 29015
+2021-05-26T23:50:09.422154000 0.181689s notice: Listening for client driver connections on port 28015
+2021-05-26T23:50:09.422266000 0.181801s notice: Listening for administrative HTTP connections on port 8080
+2021-05-26T23:50:09.422270000 0.181805s notice: Listening on cluster addresses: 127.0.0.1, 192.168.2.74, ::1, fe80::1%1, fe80::59e:bd:f85:509f%10, fe80::1809:cbac:fda9:88ae%4, fe80::d85b:9cff:fe64:f3e4%8, fe80::d85b:9cff:fe64:f3e4%9, fe80::fa5f:3ecc:57aa:cff3%11
+2021-05-26T23:50:09.422273000 0.181807s notice: Listening on driver addresses: 127.0.0.1, 192.168.2.74, ::1, fe80::1%1, fe80::59e:bd:f85:509f%10, fe80::1809:cbac:fda9:88ae%4, fe80::d85b:9cff:fe64:f3e4%8, fe80::d85b:9cff:fe64:f3e4%9, fe80::fa5f:3ecc:57aa:cff3%11
+2021-05-26T23:50:09.422275000 0.181810s notice: Listening on http addresses: 127.0.0.1, 192.168.2.74, ::1, fe80::1%1, fe80::59e:bd:f85:509f%10, fe80::1809:cbac:fda9:88ae%4, fe80::d85b:9cff:fe64:f3e4%8, fe80::d85b:9cff:fe64:f3e4%9, fe80::fa5f:3ecc:57aa:cff3%11
+2021-05-26T23:50:09.422278000 0.181812s notice: Server ready, "jp_local_fdh" 69b99807-921c-41f6-a3e6-74f9d88e4496
+2021-05-26T23:50:10.673455000 1.432990s info: Table 1e3430f7-fdf4-4da3-809a-fcad882a5cb2: Starting a new Raft election for term 3.
+2021-05-26T23:50:10.698402000 1.457937s info: Table 1e3430f7-fdf4-4da3-809a-fcad882a5cb2: This server is Raft leader for term 3. Latest log index is 6.
+2021-05-26T23:50:11.396894000 2.156429s info: Table b9e6949c-5999-43a2-b14c-51933bee6eef: Starting a new Raft election for term 3.
+2021-05-26T23:50:11.449506000 2.209041s info: Table b9e6949c-5999-43a2-b14c-51933bee6eef: This server is Raft leader for term 3. Latest log index is 6.
+2021-05-27T00:22:23.223337000 1933.819011s notice: Server got SIGINT from pid 497, uid 501; shutting down...
+2021-05-27T00:22:23.223653000 1933.819326s notice: Shutting down client connections...
+2021-05-27T00:22:23.224120000 1933.819793s notice: All client connections closed.
+2021-05-27T00:22:23.224132000 1933.819804s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2021-05-27T00:22:23.239293000 1933.834966s notice: Storage engine shut down.
+2021-05-27T11:21:47.047728000 0.191525s notice: Running rethinkdb 2.4.1 (CLANG 12.0.0 (clang-1200.0.32.28))...
+2021-05-27T11:21:47.065542000 0.209331s notice: Running on Darwin 20.5.0 x86_64
+2021-05-27T11:21:47.065675000 0.209463s notice: Loading data from directory /Users/jp/development/backend/rethinkdb_data
+2021-05-27T11:21:47.113808000 0.257596s info: Automatically using cache size of 111 MB
+2021-05-27T11:21:47.135493000 0.279281s notice: Listening for intracluster connections on port 29015
+2021-05-27T11:21:47.183231000 0.327018s notice: Listening for client driver connections on port 28015
+2021-05-27T11:21:47.183520000 0.327307s notice: Listening for administrative HTTP connections on port 8080
+2021-05-27T11:21:47.183524000 0.327312s notice: Listening on cluster addresses: 127.0.0.1, 192.168.2.74, ::1, fe80::1%1, fe80::535:d5df:a412:6dc4%11, fe80::1809:cbac:fda9:88ae%4, fe80::5ab9:662c:e770:df21%10, fe80::c029:c0ff:fe9f:d58c%8, fe80::c029:c0ff:fe9f:d58c%9
+2021-05-27T11:21:47.183528000 0.327315s notice: Listening on driver addresses: 127.0.0.1, 192.168.2.74, ::1, fe80::1%1, fe80::535:d5df:a412:6dc4%11, fe80::1809:cbac:fda9:88ae%4, fe80::5ab9:662c:e770:df21%10, fe80::c029:c0ff:fe9f:d58c%8, fe80::c029:c0ff:fe9f:d58c%9
+2021-05-27T11:21:47.183531000 0.327318s notice: Listening on http addresses: 127.0.0.1, 192.168.2.74, ::1, fe80::1%1, fe80::535:d5df:a412:6dc4%11, fe80::1809:cbac:fda9:88ae%4, fe80::5ab9:662c:e770:df21%10, fe80::c029:c0ff:fe9f:d58c%8, fe80::c029:c0ff:fe9f:d58c%9
+2021-05-27T11:21:47.183546000 0.327333s notice: Server ready, "jp_local_fdh" 69b99807-921c-41f6-a3e6-74f9d88e4496
+2021-05-27T11:21:48.183323000 1.327107s info: Table 1e3430f7-fdf4-4da3-809a-fcad882a5cb2: Starting a new Raft election for term 4.
+2021-05-27T11:21:48.222431000 1.366214s info: Table 1e3430f7-fdf4-4da3-809a-fcad882a5cb2: This server is Raft leader for term 4. Latest log index is 10.
+2021-05-27T11:21:48.293243000 1.437026s info: Table b9e6949c-5999-43a2-b14c-51933bee6eef: Starting a new Raft election for term 4.
+2021-05-27T11:21:48.311611000 1.455394s info: Table b9e6949c-5999-43a2-b14c-51933bee6eef: This server is Raft leader for term 4. Latest log index is 10.
+2021-05-27T11:41:59.677909000 1212.914059s notice: Server got SIGINT from pid 601, uid 501; shutting down...
+2021-05-27T11:41:59.678274000 1212.914424s notice: Shutting down client connections...
+2021-05-27T11:41:59.678711000 1212.914861s notice: All client connections closed.
+2021-05-27T11:41:59.678724000 1212.914873s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2021-05-27T11:41:59.700139000 1212.936288s notice: Storage engine shut down.
+2021-05-27T11:43:10.273220000 0.169428s notice: Running rethinkdb 2.4.1 (CLANG 12.0.0 (clang-1200.0.32.28))...
+2021-05-27T11:43:10.287293000 0.183494s notice: Running on Darwin 20.5.0 x86_64
+2021-05-27T11:43:10.287440000 0.183640s notice: Loading data from directory /Users/jp/development/backend/rethinkdb_data
+2021-05-27T11:43:10.327715000 0.223915s info: Automatically using cache size of 100 MB
+2021-05-27T11:43:10.327727000 0.223926s warn: Cache size does not leave much memory for server and query overhead (available memory: 688 MB).
+2021-05-27T11:43:10.327735000 0.223935s warn: Cache size is very low and may impact performance.
+2021-05-27T11:43:10.343997000 0.240197s notice: Listening for intracluster connections on port 29015
+2021-05-27T11:43:10.390144000 0.286355s notice: Listening for client driver connections on port 28015
+2021-05-27T11:43:10.390277000 0.286476s notice: Listening for administrative HTTP connections on port 8080
+2021-05-27T11:43:10.390286000 0.286485s notice: Listening on cluster addresses: 127.0.0.1, 192.168.2.74, ::1, fe80::1%1, fe80::535:d5df:a412:6dc4%11, fe80::1809:cbac:fda9:88ae%4, fe80::5ab9:662c:e770:df21%10, fe80::c029:c0ff:fe9f:d58c%8, fe80::c029:c0ff:fe9f:d58c%9
+2021-05-27T11:43:10.390289000 0.286488s notice: Listening on driver addresses: 127.0.0.1, 192.168.2.74, ::1, fe80::1%1, fe80::535:d5df:a412:6dc4%11, fe80::1809:cbac:fda9:88ae%4, fe80::5ab9:662c:e770:df21%10, fe80::c029:c0ff:fe9f:d58c%8, fe80::c029:c0ff:fe9f:d58c%9
+2021-05-27T11:43:10.390382000 0.286582s notice: Listening on http addresses: 127.0.0.1, 192.168.2.74, ::1, fe80::1%1, fe80::535:d5df:a412:6dc4%11, fe80::1809:cbac:fda9:88ae%4, fe80::5ab9:662c:e770:df21%10, fe80::c029:c0ff:fe9f:d58c%8, fe80::c029:c0ff:fe9f:d58c%9
+2021-05-27T11:43:10.390386000 0.286585s notice: Server ready, "jp_local_fdh" 69b99807-921c-41f6-a3e6-74f9d88e4496
+2021-05-27T11:43:11.458189000 1.354388s info: Table b9e6949c-5999-43a2-b14c-51933bee6eef: Starting a new Raft election for term 5.
+2021-05-27T11:43:11.478740000 1.374939s info: Table b9e6949c-5999-43a2-b14c-51933bee6eef: This server is Raft leader for term 5. Latest log index is 14.
+2021-05-27T11:43:11.833182000 1.729380s info: Table 1e3430f7-fdf4-4da3-809a-fcad882a5cb2: Starting a new Raft election for term 5.
+2021-05-27T11:43:12.097095000 1.993293s info: Table 1e3430f7-fdf4-4da3-809a-fcad882a5cb2: This server is Raft leader for term 5. Latest log index is 14.
+2021-05-27T11:43:56.311280000 46.207421s notice: Server got SIGINT from pid 601, uid 501; shutting down...
+2021-05-27T11:43:56.311507000 46.207647s notice: Shutting down client connections...
+2021-05-27T11:43:56.313459000 46.209599s notice: All client connections closed.
+2021-05-27T11:43:56.313467000 46.209607s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2021-05-27T11:43:56.340536000 46.236677s notice: Storage engine shut down.
+2021-05-27T11:50:29.104927000 0.188807s notice: Running rethinkdb 2.4.1 (CLANG 12.0.0 (clang-1200.0.32.28))...
+2021-05-27T11:50:29.121314000 0.205184s notice: Running on Darwin 20.5.0 x86_64
+2021-05-27T11:50:29.121439000 0.205308s notice: Loading data from directory /Users/jp/development/backend/rethinkdb_data
+2021-05-27T11:50:29.179562000 0.263433s info: Automatically using cache size of 100 MB
+2021-05-27T11:50:29.179575000 0.263445s warn: Cache size does not leave much memory for server and query overhead (available memory: 773 MB).
+2021-05-27T11:50:29.179589000 0.263459s warn: Cache size is very low and may impact performance.
+2021-05-27T11:50:29.193900000 0.277771s notice: Listening for intracluster connections on port 29015
+2021-05-27T11:50:29.246726000 0.330597s notice: Listening for client driver connections on port 28015
+2021-05-27T11:50:29.246926000 0.330797s notice: Listening for administrative HTTP connections on port 8080
+2021-05-27T11:50:29.246954000 0.330826s notice: Listening on cluster addresses: 127.0.0.1, 192.168.2.74, ::1, fe80::1%1, fe80::535:d5df:a412:6dc4%11, fe80::1809:cbac:fda9:88ae%4, fe80::5ab9:662c:e770:df21%10, fe80::c029:c0ff:fe9f:d58c%8, fe80::c029:c0ff:fe9f:d58c%9
+2021-05-27T11:50:29.246959000 0.330830s notice: Listening on driver addresses: 127.0.0.1, 192.168.2.74, ::1, fe80::1%1, fe80::535:d5df:a412:6dc4%11, fe80::1809:cbac:fda9:88ae%4, fe80::5ab9:662c:e770:df21%10, fe80::c029:c0ff:fe9f:d58c%8, fe80::c029:c0ff:fe9f:d58c%9
+2021-05-27T11:50:29.246978000 0.330850s notice: Listening on http addresses: 127.0.0.1, 192.168.2.74, ::1, fe80::1%1, fe80::535:d5df:a412:6dc4%11, fe80::1809:cbac:fda9:88ae%4, fe80::5ab9:662c:e770:df21%10, fe80::c029:c0ff:fe9f:d58c%8, fe80::c029:c0ff:fe9f:d58c%9
+2021-05-27T11:50:29.246981000 0.330852s notice: Server ready, "jp_local_fdh" 69b99807-921c-41f6-a3e6-74f9d88e4496
+2021-05-27T11:50:30.488224000 1.572125s info: Table 1e3430f7-fdf4-4da3-809a-fcad882a5cb2: Starting a new Raft election for term 6.
+2021-05-27T11:50:30.497845000 1.581746s info: Table 1e3430f7-fdf4-4da3-809a-fcad882a5cb2: This server is Raft leader for term 6. Latest log index is 18.
+2021-05-27T11:50:30.898162000 1.982073s info: Table b9e6949c-5999-43a2-b14c-51933bee6eef: Starting a new Raft election for term 6.
+2021-05-27T11:50:31.374359000 2.458281s info: Table b9e6949c-5999-43a2-b14c-51933bee6eef: This server is Raft leader for term 6. Latest log index is 18.
+2021-05-27T11:51:09.296993000 40.381805s notice: Server got SIGINT from pid 601, uid 501; shutting down...
+2021-05-27T11:51:09.297241000 40.382053s notice: Shutting down client connections...
+2021-05-27T11:51:09.311228000 40.396040s notice: All client connections closed.
+2021-05-27T11:51:09.311235000 40.396046s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2021-05-27T11:51:09.379375000 40.464189s notice: Storage engine shut down.
+2021-05-27T11:52:11.079889000 0.175682s notice: Running rethinkdb 2.4.1 (CLANG 12.0.0 (clang-1200.0.32.28))...
+2021-05-27T11:52:11.090767000 0.186550s notice: Running on Darwin 20.5.0 x86_64
+2021-05-27T11:52:11.090883000 0.186665s notice: Loading data from directory /Users/jp/development/backend/rethinkdb_data
+2021-05-27T11:52:11.132599000 0.228383s info: Automatically using cache size of 100 MB
+2021-05-27T11:52:11.132615000 0.228398s warn: Cache size does not leave much memory for server and query overhead (available memory: 756 MB).
+2021-05-27T11:52:11.132625000 0.228408s warn: Cache size is very low and may impact performance.
+2021-05-27T11:52:11.146170000 0.241953s notice: Listening for intracluster connections on port 29015
+2021-05-27T11:52:11.194369000 0.290154s notice: Listening for client driver connections on port 28015
+2021-05-27T11:52:11.194479000 0.290264s notice: Listening for administrative HTTP connections on port 8080
+2021-05-27T11:52:11.194484000 0.290268s notice: Listening on cluster addresses: 127.0.0.1, 192.168.2.74, ::1, fe80::1%1, fe80::535:d5df:a412:6dc4%11, fe80::1809:cbac:fda9:88ae%4, fe80::5ab9:662c:e770:df21%10, fe80::c029:c0ff:fe9f:d58c%8, fe80::c029:c0ff:fe9f:d58c%9
+2021-05-27T11:52:11.194487000 0.290271s notice: Listening on driver addresses: 127.0.0.1, 192.168.2.74, ::1, fe80::1%1, fe80::535:d5df:a412:6dc4%11, fe80::1809:cbac:fda9:88ae%4, fe80::5ab9:662c:e770:df21%10, fe80::c029:c0ff:fe9f:d58c%8, fe80::c029:c0ff:fe9f:d58c%9
+2021-05-27T11:52:11.194497000 0.290281s notice: Listening on http addresses: 127.0.0.1, 192.168.2.74, ::1, fe80::1%1, fe80::535:d5df:a412:6dc4%11, fe80::1809:cbac:fda9:88ae%4, fe80::5ab9:662c:e770:df21%10, fe80::c029:c0ff:fe9f:d58c%8, fe80::c029:c0ff:fe9f:d58c%9
+2021-05-27T11:52:11.194500000 0.290284s notice: Server ready, "jp_local_fdh" 69b99807-921c-41f6-a3e6-74f9d88e4496
+2021-05-27T11:52:12.429323000 1.525137s info: Table b9e6949c-5999-43a2-b14c-51933bee6eef: Starting a new Raft election for term 7.
+2021-05-27T11:52:12.440007000 1.535821s info: Table b9e6949c-5999-43a2-b14c-51933bee6eef: This server is Raft leader for term 7. Latest log index is 22.
+2021-05-27T11:52:12.488307000 1.584122s info: Table 1e3430f7-fdf4-4da3-809a-fcad882a5cb2: Starting a new Raft election for term 7.
+2021-05-27T11:52:12.509233000 1.605049s info: Table 1e3430f7-fdf4-4da3-809a-fcad882a5cb2: This server is Raft leader for term 7. Latest log index is 22.
+2021-05-27T11:55:33.230256000 202.330782s notice: Server got SIGINT from pid 601, uid 501; shutting down...
+2021-05-27T11:55:33.230450000 202.330976s notice: Shutting down client connections...
+2021-05-27T11:55:33.233159000 202.333685s notice: All client connections closed.
+2021-05-27T11:55:33.233168000 202.333694s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2021-05-27T11:55:33.251714000 202.352240s notice: Storage engine shut down.

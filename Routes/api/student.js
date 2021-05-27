@@ -21,7 +21,7 @@ router.get('/:id', async (req, res) => {
         const student = await database.table('students').get(id).run(req.rdb);
         res.status(200).json({ data: student, message: 'student listed' });
     } catch (error) {
-        res.status(400).json(error);
+        res.status(404).json(error);
     }
 });
 // Create a student
@@ -44,7 +44,7 @@ router.put('/:id', async (req, res) => {
         const newStudent = await database.table('students').get(id).update(updateStudent).run(req.rdb);
         res.status(200).json({ data: newStudent, message: 'student was updated succesfully' });
     } catch (error) {
-        res.status(400).json(error);
+        res.status(404).json(error);
     }
 });
 // remove a student
@@ -55,7 +55,7 @@ router.delete('/:id', async (req, res) => {
         const removeStudent = await database.table('students').get(id).delete().run(req.rdb);
         res.status(200).json({ data: removeStudent, message: 'student was deleted' });
     } catch (error) {
-        res.status(400).json(error);
+        res.status(404).json(error);
     }
 });
 

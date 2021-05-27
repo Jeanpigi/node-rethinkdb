@@ -1,0 +1,1 @@
+DELETE http://localhost:3002/api/students/4809dbf3-df47-4189-be0e-72b3e28ca586
