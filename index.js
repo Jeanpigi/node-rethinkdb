@@ -6,7 +6,7 @@ const { connection, close } = require('./servcies/dataBase/rethinkdb');
 const studentApiRouter = require('./Routes/api/student');
 
 const app = express();
-const PORT = process.env.NODE_PORT || 3002;
+const PORT = process.env.PORT || 3002;
 
 app.use(express.json());
 app.use(cors());
